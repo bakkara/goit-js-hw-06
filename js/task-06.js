@@ -12,4 +12,4 @@ function handlerInputCheck() {
     }
 }
 
-input.addEventListener('blur', inputCheck)
+input.addEventListener('blur', handlerInputCheck)
