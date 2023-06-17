@@ -6,4 +6,4 @@ function handlerFontSizeUpdate() {
     text.style.fontSize = `${fontSizeValue}px`
 }
 
-fontSizeControl.addEventListener('input', fontSizeUpdate)
+fontSizeControl.addEventListener('input', handlerFontSizeUpdate)
